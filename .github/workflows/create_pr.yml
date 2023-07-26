@@ -16,6 +16,6 @@ jobs:
           git add -A
           git commit -m "chore(master): update and rebuild on new master commit" || echo "No new changes"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           title: 'chore(master): update image with new master commit'
