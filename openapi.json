@@ -5735,10 +5735,10 @@
                 }
             },
         "/recommendations/openshift": {
-            "$ref": "https://stage.foo.redhat.com:1337/api/ros/v1/openapi.json#/paths/~1recommendations~1openshift"
+            "$ref": "https://raw.githubusercontent.com/patilsuraj767/testing/master/ros-ocp.json#/paths/~1recommendations~1openshift"
         },
         "/recommendations/openshift/{recommendation-id}": {
-            "$ref": "https://stage.foo.redhat.com:1337/api/ros/v1/openapi.json#/paths/~1recommendations~1openshift~1{recommendation-id}"
+            "$ref": "https://raw.githubusercontent.com/patilsuraj767/testing/master/ros-ocp.json#/paths/~1recommendations~1openshift~1{recommendation-id}"
         }
         },
     "externalDocs": {
