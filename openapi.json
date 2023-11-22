@@ -5735,10 +5735,10 @@
                 }
             },
         "/recommendations/openshift": {
-            "$ref": "https://stage.foo.redhat.com:1337/api/cost-management/v1/recommendations/openshift/openapi.json#/paths/~1recommendations~1openshift"
+            "$ref": "/api/cost-management/v1/recommendations/openshift/openapi.json#/paths/~1recommendations~1openshift"
         },
         "/recommendations/openshift/{recommendation-id}": {
-            "$ref": "https://stage.foo.redhat.com:1337/api/cost-management/v1/recommendations/openshift/openapi.json#/paths/~1recommendations~1openshift~1{recommendation-id}"
+            "$ref": "/api/cost-management/v1/recommendations/openshift/openapi.json#/paths/~1recommendations~1openshift~1{recommendation-id}"
         }
         },
     "externalDocs": {
